@@ -1,0 +1,87 @@
+.fancylink:after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: $background;
+  position: absolute;
+  width: 0%;
+  margin: 0 49.5%;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: width 0.15s,margin 0.15s,opacity 0s 0.15s;
+  transition: width 0.15s,margin 0.15s,opacity 0s 0.15s;
+}
+.fancylink {
+  width: 100%;
+  margin: 0%;
+  opacity: 1;
+  -webkit-transition: width 0.15s,margin 0.15s,opacity 0s;
+  transition: width 0.15s,margin 0.15s,opacity 0s;
+  display: inline-block;
+}
+
+@font-face {
+    font-family: 'LT_55842';
+    src: url('/fonts/LT_55842.eot');
+    src: url('/fonts/LT_55842.eot') format('embedded-opentype'),
+         url('/fonts/LT_55842.woff2') format('woff2'),
+         url('/fonts/LT_55842.woff') format('woff'),
+         url('/fonts/LT_55842.ttf') format('truetype'),
+         url('/fonts/LT_55842.svg#LT_55842') format('svg');
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'LT_55842';
+  font-weight: normal;
+}
+h1, h2 {
+  font-size: 2em;
+}
+.navbar-default {
+  background-color: white;
+  border: none
+}
+
+body {
+  font-size: 12px;
+}
+.logo {
+  width: 140px;
+  height: 50px;
+  background-size: 100%;
+  background-image: url(/css/img/logo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-indent: -10000px;
+  margin-right: 20px;
+}
+.main-header {
+
+}
+.main {
+  margin-bottom: 60px;
+}
+.right-col,
+.left-col {
+  min-height: 900px;
+}
+.right-col div,
+.left-col div {
+  min-height: 800px;
+}
+.jumbotron {
+  background: url(http://www.6sqft.com/wp-content/uploads/2014/10/biggie-mural-in-bed-stuy.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.main-footer {
+  min-height: 300px;
+  padding: 60px 0;
+  border-top: solid 1px #ddd;
+}
+.post {
+  border-bottom: solid 1px #ddd;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
